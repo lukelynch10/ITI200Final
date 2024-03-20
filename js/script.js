@@ -179,4 +179,9 @@ $(function(){
           })
         });
 
-
+// RESTful test
+$(function(){
+  $.get("/", function(response){
+    console.log(response)
+  })
+})
